@@ -1,0 +1,19 @@
+{
+	"main": "dist/index.js",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/react": "^16.4.16"
+	},
+	"peerDependencies": {
+		"framer": "^0.10",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "9cc01ee4-acde-42d9-8954-8593b320596e"
+	},
+	"author": "Elias Julian",
+	"dependencies": {
+		"@framer/gusso.magic-move": "^1.13.0"
+	}
+}
