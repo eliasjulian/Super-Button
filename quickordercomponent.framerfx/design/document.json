@@ -148,7 +148,7 @@
         "isTarget" : false,
         "left" : 204,
         "locked" : false,
-        "name" : "expanded-nav",
+        "name" : "magicmove",
         "navigationTarget" : null,
         "navigationTransition" : "push",
         "navigationTransitionBackdropColor" : "rgba(4,4,15,.4)",
@@ -311,64 +311,6 @@
         "widthType" : 0
       },
       {
-        "__class" : "CodeComponentNode",
-        "aspectRatio" : null,
-        "bottom" : null,
-        "centerAnchorX" : 0.22222222222222221,
-        "centerAnchorY" : 1.6200000000000001,
-        "children" : [
-
-        ],
-        "clip" : true,
-        "codeComponentIdentifier" : ".\/superbutton.tsx_superbutton",
-        "codeComponentProps" : {
-          "text" : "Hello World!"
-        },
-        "codeOverrideEnabled" : false,
-        "constraintsLocked" : false,
-        "exportOptions" : [
-
-        ],
-        "fillColor" : "rgba(255,255,255,1)",
-        "fillEnabled" : false,
-        "fillGradient" : {
-          "__class" : "LinearGradient",
-          "alpha" : 1,
-          "angle" : 0,
-          "end" : "rgba(0,0,0,0)",
-          "start" : "black"
-        },
-        "fillImage" : null,
-        "fillImagePixelHeight" : null,
-        "fillImagePixelWidth" : null,
-        "fillImageResize" : "fill",
-        "fillType" : "color",
-        "height" : 200,
-        "heightType" : 0,
-        "id" : "YqFYw9vc8",
-        "intrinsicHeight" : null,
-        "intrinsicWidth" : null,
-        "left" : 484,
-        "locked" : false,
-        "name" : null,
-        "opacity" : 1,
-        "originalid" : null,
-        "parentid" : "uRcYvMgY3",
-        "radius" : 0,
-        "radiusBottomLeft" : 0,
-        "radiusBottomRight" : 0,
-        "radiusIsRelative" : false,
-        "radiusPerCorner" : false,
-        "radiusTopLeft" : 0,
-        "radiusTopRight" : 0,
-        "right" : null,
-        "rotation" : 0,
-        "top" : -430,
-        "visible" : true,
-        "width" : 200,
-        "widthType" : 0
-      },
-      {
         "__class" : "FrameNode",
         "aspectRatio" : null,
         "blendingEnabled" : 0,
@@ -456,7 +398,7 @@
                 }
               ],
               "cached" : {
-                "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"3n6aj-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3n6aj-0-0\" style=\"tab-size:4;font-weight:400;font-family:&quot;WorkSans-Black&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:16px;letter-spacing:1px;line-height:1.2\"><span data-text=\"true\">SUPER 🦸‍♀️ BUTTON<\/span><\/span><\/div><\/div>",
+                "html" : "<div class='DraftEditor-alignCenter'><div data-offset-key=\"3n6aj-0-0\" class=\"public-DraftStyleDefault-block public-DraftStyleDefault-ltr\"><span data-offset-key=\"3n6aj-0-0\" style=\"tab-size:4;font-weight:800;font-family:&quot;WorkSans-Black&quot;, &quot;Work Sans&quot;, sans-serif;-webkit-text-fill-color:hsl(0, 0%, 100%);font-size:16px;letter-spacing:1px;line-height:1.2\"><span data-text=\"true\">SUPER 🦸‍♀️ BUTTON<\/span><\/span><\/div><\/div>",
                 "os" : "10_14",
                 "size" : {
                   "height" : 19,
@@ -503,7 +445,7 @@
         "isExternalMaster" : null,
         "isMaster" : true,
         "isTarget" : false,
-        "left" : 788,
+        "left" : 484,
         "locked" : false,
         "name" : "button",
         "navigationTarget" : null,
@@ -812,6 +754,65 @@
         "top" : 740,
         "visible" : true,
         "width" : 400,
+        "widthType" : 0
+      },
+      {
+        "__class" : "CodeComponentNode",
+        "aspectRatio" : null,
+        "bottom" : null,
+        "centerAnchorX" : 0,
+        "centerAnchorY" : 0,
+        "children" : [
+
+        ],
+        "clip" : true,
+        "codeComponentIdentifier" : ".\/superbutton.tsx_superbutton",
+        "codeComponentProps" : {
+          "backgroundColor" : "hsl(0, 45%, 25%)",
+          "text" : "Super🦸‍♀️Button"
+        },
+        "codeOverrideEnabled" : false,
+        "constraintsLocked" : false,
+        "exportOptions" : [
+
+        ],
+        "fillColor" : "rgba(255,255,255,1)",
+        "fillEnabled" : false,
+        "fillGradient" : {
+          "__class" : "LinearGradient",
+          "alpha" : 1,
+          "angle" : 0,
+          "end" : "rgba(0,0,0,0)",
+          "start" : "black"
+        },
+        "fillImage" : null,
+        "fillImagePixelHeight" : null,
+        "fillImagePixelWidth" : null,
+        "fillImageResize" : "fill",
+        "fillType" : "color",
+        "height" : 50,
+        "heightType" : 0,
+        "id" : "XniudnUKN",
+        "intrinsicHeight" : null,
+        "intrinsicWidth" : null,
+        "left" : 873,
+        "locked" : false,
+        "name" : null,
+        "opacity" : 1,
+        "originalid" : null,
+        "parentid" : "uRcYvMgY3",
+        "radius" : 0,
+        "radiusBottomLeft" : 0,
+        "radiusBottomRight" : 0,
+        "radiusIsRelative" : false,
+        "radiusPerCorner" : false,
+        "radiusTopLeft" : 0,
+        "radiusTopRight" : 0,
+        "right" : null,
+        "rotation" : 0,
+        "top" : -426,
+        "visible" : true,
+        "width" : 250,
         "widthType" : 0
       }
     ],
